@@ -1,0 +1,27 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Padauk&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+$primary: green;
+$font-family-sans-serif: "Poppins", sans-serif, "Padauk", sans-serif;
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+.header{
+    background: white;
+    backdrop-filter: blur(15px) contrast(130%);
+    z-index: 1000;
+}
+
+.header-icon{
+    width: 40px;
+    height: 40px;
+}
+.services-svg{
+    width: 65px;
+    height: 65px;
+    fill: var(--bs-primary);
+}
+.scrollToTop{
+    bottom: 50px;
+    right: 50px;
+}
